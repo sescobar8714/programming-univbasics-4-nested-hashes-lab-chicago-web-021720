@@ -1,4 +1,4 @@
-
+require 'pry'
 def hopper
 	programmer_hash =
  		{
@@ -111,7 +111,11 @@ def changing_alan
 end
 
 def adding_to_dennis
+<<<<<<< HEAD
 
+=======
+  binding.pry
+>>>>>>> 584a0226e7b7b7e32964df4f39cc8d85b03ab5fb
 	programmer_hash =
  		{
         :grace_hopper => {
